@@ -16,9 +16,9 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 * João Vitor
 * Lucas Macedo
 
-## Simone Alves Nogueira
+## Orientador
 
-* Nome completo do professor
+* Simone Alves Nogueira
 
 # Documentação
 
