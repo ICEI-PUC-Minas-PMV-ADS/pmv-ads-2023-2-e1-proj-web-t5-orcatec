@@ -64,7 +64,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte         | GitHub                             | [http://....                            ](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t5-orcatec.git)|
 | Documentos do projeto               | GitHub                             | [http://....                            ](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t5-orcatec.git)|
-| Projeto de Interface                | Figma                              | http://....                            |
+| Projeto de Interface                | Figma                              | [http://....   ](https://www.figma.com/files/team/1286464853674002226/Or%C3%A7aTec?fuid=1286463851983514559)                         |
 | Gerenciamento do Projeto            | GitHub Projects                    | http://....                            |
 | Hospedagem                          | GitHub Pages                       | http://....                            |
 
