@@ -12,29 +12,19 @@
 <tr>
 <td width="150px"><b>Descrição</b></td>
 <td width="600px">Artesãos 
-
 Feirantes 
-
 Pequenos-Varejistas 
-
 Profissionais-Autônomos 
-
 Artistas 
-
 Profissionais da área de alimentação  </td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
 <td>Fornecedores e Estoques 
-
 Manutenção e Reparos 
-
 Salários  
-
 Aluguel ou Locação de Espaço 
-
 Atributo  
-
 Outros  </td>
 </tr>
 </tbody>
@@ -43,17 +33,10 @@ Outros  </td>
 
 ## Histórias de Usuários
 
-[Apresente aqui as histórias de usuários que são relevantes para o projeto da solução.]
-
-> **Link Útil**:
-> - [Como escrever boas histórias de usuário](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-
-[Utilize o modelo de tabela abaixo para apresentar as histórias de usuários.]
-
 |EU COMO... `QUEM`   | QUERO/PRECISO ... `O QUE` |PARA ... `PORQUE`                 |
 |--------------------|---------------------------|----------------------------------|
-| ...                | ...                       | ...                              |
-| ...                | ...                       | ...                              |
+| Microempreendedor | Calcular os valores dos serviços a ser prestado | Saber a margem de lucro |
+| Microempreendedor | Listar os fornecedores, saber quais produtos vendem e o seu valor | Sabendo o preço dos produtos utilizados em um serviço é possível calcular o valor e margem de lucro com maior facilidade |
 
 ## Requisitos do Projeto
 
