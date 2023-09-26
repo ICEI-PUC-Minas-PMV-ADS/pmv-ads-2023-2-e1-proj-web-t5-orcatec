@@ -7,15 +7,35 @@
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil Nome </th>
+<th colspan="2">Microempreendedor </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
-<td width="600px">...</td>
+<td width="600px">Artesãos 
+
+Feirantes 
+
+Pequenos-Varejistas 
+
+Profissionais-Autônomos 
+
+Artistas 
+
+Profissionais da área de alimentação  </td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>...</td>
+<td>Fornecedores e Estoques 
+
+Manutenção e Reparos 
+
+Salários  
+
+Aluguel ou Locação de Espaço 
+
+Atributo  
+
+Outros  </td>
 </tr>
 </tbody>
 </table>
