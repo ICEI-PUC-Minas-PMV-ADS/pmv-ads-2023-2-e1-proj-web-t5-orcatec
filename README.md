@@ -6,7 +6,7 @@
 
 `2023/2`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
+Solução desenvolvida para apoiar os empreendedores de pequenos negócios no processo de cotação, considerando todos os custos, preços de mercado e prazos de entrega, contribuindo de forma significativa na rentabilidade, otimização de carga horária relacionada a esta tarefa e na qualidade de atendimento, aliando a satisfação dos clientes com preços mais justos ofertados
 
 ## Integrantes
 
