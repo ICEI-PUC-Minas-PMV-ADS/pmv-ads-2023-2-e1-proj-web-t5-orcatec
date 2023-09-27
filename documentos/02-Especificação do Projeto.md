@@ -48,7 +48,7 @@ Outros  </td>
 
 |ID    | Descrição                                                                  | Prioridade |
 |-------|-------------------------------------------------------------------------------|----|
-| RF-01 |  Cadastro do cliente na plataforma, para o cadastro deve                    | ...   | 
+| RF-01 |  Cadastro do cliente na plataforma, para o cadastro deve ser inserido nome, CPF, e-mail, telefone e endereço, deve ser gerada uma mensagem para o e-mail do cliente confirmando a criação da conta e uma senha aleatória que obrigatoriamente deve ser trocada no primeiro acesso.                   | ...   | 
 | RF-02 |  ...                    | ...   |
 | RF-03 |  ...                    | ...   |
 | RF-04 |  ...                    | ...   |
