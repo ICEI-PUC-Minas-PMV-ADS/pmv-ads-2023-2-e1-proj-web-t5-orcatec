@@ -48,18 +48,18 @@ Outros  </td>
 
 |ID    | Descrição                                                                  | Prioridade |
 |-------|-------------------------------------------------------------------------------|----|
-| RF-01 |  Cadastro do cliente na plataforma, para o cadastro deve ser inserido nome, CPF, e-mail, telefone e endereço, deve ser gerada uma mensagem para o e-mail do cliente confirmando a criação da conta e uma senha aleatória que obrigatoriamente deve ser trocada no primeiro acesso.                   | ...   | 
-| RF-02 |  ...                    | ...   |
-| RF-03 |  ...                    | ...   |
-| RF-04 |  ...                    | ...   |
-| RF-05 |  ...                    | ...   |
-| RF-06 |  ...                    | ...   |
-| RF-07 |  ...                    | ...   |
-| RF-08 |  ...                    | ...   |
-| RF-09 |  ...                    | ...   |
-| RF-10 |  ...                    | ...   |
-| RF-11 |  ...                    | ...   |
-| RF-12 |  ...                    | ...   |
+| RF-01 |  Cadastro do cliente na plataforma, para o cadastro deve ser inserido nome, CPF, e-mail, telefone e endereço, deve ser gerada uma mensagem para o e-mail do cliente confirmando a criação da conta e uma senha aleatória que obrigatoriamente deve ser trocada no primeiro acesso.  | Alta  | 
+| RF-02 |  Ambiente do cliente com visualização do histórico dos orçamentos podendo selecionar o orçamento desejado, aprová-lo ou reprová-lo, inserir feedbacks para avaliação do prestador de serviço e imprimir os orçamentos, além disso deve haver um filtro para organização dos orçamentos por data, tipo do serviço ou status.  | Alta  |
+| RF-03 |  ...                    | Média |
+| RF-04 |  ...                    | Média |
+| RF-05 |  ...                    | Alta  |
+| RF-06 |  ...                    | Alta  |
+| RF-07 |  ...                    | Média |
+| RF-08 |  ...                    | Média |
+| RF-09 |  ...                    | Baixa |
+| RF-10 |  ...                    | Média |
+| RF-11 |  ...                    | Baixa |
+| RF-12 |  ...                    | Baixa |
 
 **Prioridade: Alta / Média / Baixa. 
 
