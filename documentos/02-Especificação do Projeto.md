@@ -46,10 +46,20 @@ Outros  </td>
 
 [Utilize o modelo de tabela abaixo para apresentar os requisitos funcionais]
 
-|ID    | Descrição                | Prioridade |
-|-------|---------------------------------|----|
-| RF-01 |  ...                    | ...   | 
-|  ...  |  ...                    | ...   |
+|ID    | Descrição                                                                  | Prioridade |
+|-------|-------------------------------------------------------------------------------|----|
+| RF-01 |  Cadastro do cliente na plataforma, para o cadastro deve                    | ...   | 
+| RF-02 |  ...                    | ...   |
+| RF-03 |  ...                    | ...   |
+| RF-04 |  ...                    | ...   |
+| RF-05 |  ...                    | ...   |
+| RF-06 |  ...                    | ...   |
+| RF-07 |  ...                    | ...   |
+| RF-08 |  ...                    | ...   |
+| RF-09 |  ...                    | ...   |
+| RF-10 |  ...                    | ...   |
+| RF-11 |  ...                    | ...   |
+| RF-12 |  ...                    | ...   |
 
 **Prioridade: Alta / Média / Baixa. 
 
