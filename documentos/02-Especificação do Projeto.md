@@ -53,13 +53,13 @@ Outros  </td>
 | RF-03 |  Após o aceite do orçamento o contrato deve ser gerado contendo os valores e serviços descritos no orçamento bem como as clausuras inseridas pelo prestador de serviço, deve haver uma opção para imprimir o contrato e outra para enviá-lo por e-mail. | Média |
 | RF-04 |  Orçamentos não aprovados podem ser reabertos e dados como ativos para atualização de informações e valores para uma nova troca de feedbacks com o prestador de serviço. | Média |
 | RF-05 |  Deve existir no ambiente do prestador de serviço um espaço para a realização do cálculo dos valores cobrados pelo serviço, o serviço deve ter um nome, um id, uma descrição e um valor levando em conta o custo de execução e margem de lucro. | Alta  |
-| RF-06 |  ...                    | Alta  |
-| RF-07 |  ...                    | Média |
-| RF-08 |  ...                    | Média |
-| RF-09 |  ...                    | Baixa |
-| RF-10 |  ...                    | Média |
-| RF-11 |  ...                    | Baixa |
-| RF-12 |  ...                    | Baixa |
+| RF-06 |  No ambiente do prestador de serviço deve existir um espaço para a criação da lista de fornecedores com id, nome, endereço, contato, descrição, produtos vendidos e os valores dos produtos. O prestador de serviço pode navegar nessa lista filtrando por fornecedor ou por produto. | Alta  |
+| RF-07 |  Deve haver um espaço na área de criação do orçamento para definição do escopo do serviço e inserção de informações relevantes para o orçamento em formata de texto ou imagens. | Média |
+| RF-08 |  Na criação do orçamento é necessário existir um espaço em que o prestador de serviço possa colocar o cronograma para a realização do serviço. | Média |
+| RF-09 |  Durante a criação do orçamento é necessário existir um campo para inserção de serviços complementares e o valor desses serviços deve ser destacado dos outros | Baixa |
+| RF-10 |  O prestador de serviço precisa responder os feedbacks dos clientes após a modificação dos orçamentos. | Média |
+| RF-11 |  O prestador de serviço precisa de um espaço para edição de um ou mais modelos de contrato, que podem ser inseridos nos orçamentos. | Baixa |
+| RF-12 |  O prestador de serviços deve acessar uma ferramenta de CRM dentro da plataforma contendo as informações de andamento e aceite dos seus orçamentos. | Baixa |
 
 **Prioridade: Alta / Média / Baixa. 
 
