@@ -69,8 +69,9 @@ Outros  </td>
 
 |ID      | Descrição               |Prioridade |
 |--------|-------------------------|----|
-| RNF-01 |  ...                    | ...   | 
-| ...    |  ...                    | ...   | 
+| RNF-01 |  Sistema deve ser feito em plataformas web.       | Alta  | 
+| RNF-02 |  Necessidade de criar um logotipo para o sistema. | Alta  | 
+| RNF-03 |  Deve ter suas operações integradas com opções para envio de e-mails com notificações para o cliente e para o prestador de serviço. | Média | 
 
 **Prioridade: Alta / Média / Baixa. 
 
