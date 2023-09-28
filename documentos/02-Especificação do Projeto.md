@@ -37,6 +37,14 @@ Outros  </td>
 |--------------------|---------------------------|----------------------------------|
 | Microempreendedor | Calcular os valores dos serviços a ser prestado | Saber a margem de lucro |
 | Microempreendedor | Listar os fornecedores, saber quais produtos vendem e o seu valor | Sabendo o preço dos produtos utilizados em um serviço é possível calcular o valor e margem de lucro com maior facilidade |
+| Microempreendedor | Listar todos os serviços que tenho possibilidade de executar | Ajuda a precisar melhor quais partes do serviço podem ser entregues pelo microempreendedor e quais precisam ser terceirizadas para outros |
+| Microempreendedor | Salvar as informações do cliente | Saber quem é o cliente e poder entrar em contato com ele facilmente |
+| Microempreendedor | Salvar as informações dos serviços já realizados | Ter um portifólio com imagens dos serviços ajuda a convencer o cliente a aceitar o valor solicitado no orçamento |
+| Microempreendedor | Definir datas e horários para a execução dos serviços | Organizar quanto a datas de início e fim para entrega dos serviços |
+| Microempreendedor | Listar todos os produtos que posso vender e seus respectivos custos | Sabendo o custo dos meus produtos posso calcular o lucro com maior facilidade |
+| Microempreendedor | Entregar o orçamento para o cliente e aguardar uma resposta | Iniciar a fase de negociação com o cliente discutindo valores e prazos para a entrega do serviço |
+| Microempreendedor | Organizar uma lista com todos os orçamentos | Avaliar a expectativa de trabalho, tempo que será gasto e expectativa de lucro |
+| Microempreendedor | Criar um contrato com base em um orçamento aprovado pelo cliente | Assinar o contrato é validar todo o tempo empregado na criação do orçamento |
 
 ## Requisitos do Projeto
 
