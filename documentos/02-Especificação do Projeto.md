@@ -15,7 +15,7 @@
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>" Fornecedores e Estoques, Manutenção e Reparos, Salários, Aluguel ou Locação de Espaço, Atributo, Outros "  </td>
+<td>Fornecedores e Estoques, Manutenção e Reparos, Salários, Aluguel ou Locação de Espaço, Atributo, Outros  </td>
 </tr>
 </tbody>
 </table>
