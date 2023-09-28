@@ -11,7 +11,7 @@
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
-<td width="600px">" Artesãos, Feirantes, Pequenos-Varejistas, Profissionais-Autônomos, Artistas, Profissionais da área de alimentação "  </td>
+<td width="600px">Artesãos, Feirantes, Pequenos-Varejistas, Profissionais-Autônomos, Artistas, Profissionais da área de alimentação  </td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
