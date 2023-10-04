@@ -1,9 +1,6 @@
 
 # Metodologia
 
-Esta seção descreve a organização da equipe para a execução das tarefas do projeto e as ferramentas utilizadas para a manutenção dos códigos e demais artefatos.
-
-
 ## Gerenciamento de Projeto
 A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, pois como citam Amaral, Fleury e Isoni (2019, p. 68), seus benefícios são a
 
@@ -16,11 +13,6 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 - Product Owner: Amanda Blitzkow Lissa
 - Equipe de Desenvolvimento: Amanda Blitzkow Lissa, Fabio Francisco Costa Ribeiro, Hudson Martins Nunes, João Vitor Vaz Eler Fochat, Lucas Macedo de Almeida
 - Equipe de Design: Fabio Francisco Costa Ribeiro, Hudson Martins Nunes, Lucas Macedo de Almeida
-
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
 
 ### Processo
 
