@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/orcamento style.css" />
+    <title>Orçamento</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="form-image">
+        <img src="./assets/logo.png" height="300" width="400" alt="Logo OrçaTec">
+      </div>
+
+      <div>
+        <br> 
+        <br>
+        <h1>Nos campos logo abaixo efetue os lançamentos dos valores para elaborar seu Orçamento Fácil. </h1> <br> 
+        <br> 
+        <br> 
+        <br> 
+        <br> 
+        <br> 
+        <label for="receitas previstas">RECEITAS PREVISTAS:</label>
+        
+        <select name="receitas previstas">
+            <option value="">Seledione o tipo de Receita Prevista</option>
+            <option value="receita de vendas">Receita de vendas</option>
+            <option value="receita com serviços">Receita com serviços</option>
+            <option value="receitas financeiras">Receitas financeiras</option>  
+            <option value="rutras entradas">Outras entradas</option>  
+      </select><br> 
+
+      <div class="input-box">
+        <label for="receitas"></label>
+        <input
+          id="receitas"
+          type="RECEITAS PREVISTAS"
+          name="number"
+          
+          required
+        />
+      </div><br>
+
+      <label for="receitas previstas">DESPESAS PREVISTAS:</label>
+        
+      <select name="despesas previstas">
+          <option value="">Seledione o tipo de Despesas Prevista</option>
+          <option value="despesa com produtos">Despesa com produto</option>
+          <option value="despesa com serviços">Despesa com serviços</option>
+          <option value="despesa com pessoal">Despesa com pessoal</option>
+          <option value="despesas comerciais">Despesas comerciais</option>  
+          <option value="despesas administrativas">Despesas administrativas</option> 
+          <option value="despesas financeiras">Despesas financeiras</option>
+          <option value="tributos">Tributos</option>
+          <option value="investimentos">Investimentos</option>
+          <option value="retirada">Retirada</option>  
+          <option value="outras saídas">Outras saídas</option>
+        </select><br> 
+
+        <div class="input-box">
+        <label for="receitas"></label>
+        <input
+          id="despesas"
+          type="DESPESAS PREVISTAS"
+          name="number"
+          
+          required
+        />
+      </div>
+
+      <input type="submit" value="Gerar Orçamento" class="btn" />
+     
+  
+    
+
+
+</body>
+</html>
