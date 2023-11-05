@@ -68,6 +68,15 @@ body {
 .logo img {
   max-width: 100%;
 }
+
+.signup-link {
+  text-align: left;
+  margin: 10px 0;
+  font-size: 14px;
+  font-style: italic;
+  margin-left: 40px;
+  color: #0e4b82;
+}
 @media screen and (max-width: 1330px) {
   .form-image {
     display: none;
