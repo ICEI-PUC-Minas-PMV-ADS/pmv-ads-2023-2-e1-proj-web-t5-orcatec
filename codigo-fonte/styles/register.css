@@ -160,10 +160,10 @@ body {
 }
 
 .continue-button button:hover {
-  background: #0e4b82;
+  background: rgb(109, 130, 14);
 }
 
-.continue-button button a {
+.continue-button button {
   text-decoration: none;
   font-size: 0.93rem;
   font-weight: 500;

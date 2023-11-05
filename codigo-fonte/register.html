@@ -1,101 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/register.css" />
-    <title>Formulário</title>
-  </head>
 
-  <body>
-    <div class="container">
-      <div class="form-image">
-        <img src="./styles/img/undraw_data_re_80ws.svg" alt="" />
-      </div>
-      <div class="form">
-        <form action="#">
-          <div class="form-header">
-            <div class="title">
-              <h1>Cadastre-se</h1>
-            </div>
-            <div class="login-button">
-              <button><a href="#">Entrar</a></button>
-            </div>
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/register.css" />
+  <title>Formulário</title>
+</head>
 
-          <div class="input-group">
-            <div class="input-box">
-              <label for="corporatereason">Razão Social</label>
-              <input
-                id="corporatereason"
-                type="text"
-                name="corporatereason"
-                placeholder="Digite a razão social"
-                required
-              />
-            </div>
-
-            <div class="input-box">
-              <label for="legal responsible">Responsavel legal</label>
-              <input
-                id="legal responsible"
-                type="text"
-                name="legal responsible"
-                placeholder="Digite o nome do responsável"
-                required
-              />
-            </div>
-            <div class="input-box">
-              <label for="email">E-mail</label>
-              <input
-                id="email"
-                type="email"
-                name="email"
-                placeholder="Digite seu e-mail"
-                required
-              />
-            </div>
-
-            <div class="input-box">
-              <label for="number">Celular</label>
-              <input
-                id="number"
-                type="tel"
-                name="number"
-                placeholder="(xx) xxxx-xxxx"
-                required
-              />
-            </div>
-
-            <div class="input-box">
-              <label for="password">Senha</label>
-              <input
-                id="password"
-                type="password"
-                name="password"
-                placeholder="Digite sua senha"
-                required
-              />
-            </div>
-
-            <div class="input-box">
-              <label for="confirmPassword">Confirme sua Senha</label>
-              <input
-                id="confirmPassword"
-                type="password"
-                name="confirmPassword"
-                placeholder="Digite sua senha novamente"
-                required
-              />
-            </div>
-          </div>
-
-          <div class="continue-button">
-            <button><a href="#">Continuar</a></button>
-          </div>
-        </form>
-      </div>
+<body>
+  <div class="container">
+    <div class="form-image">
+      <img src="./styles/img/undraw_data_re_80ws.svg" alt="" />
     </div>
-  </body>
+    <div class="form">
+      <form action="process_registration.php" method="post">
+        <div class="form-header">
+          <div class="title">
+            <h1>Cadastre-se</h1>
+          </div>
+        </div>
+
+        <div class="input-group">
+          <div class="input-box">
+            <label for="corporatereason">Razão Social</label>
+            <input id="corporatereason" type="text" name="corporatereason" placeholder="Digite a razão social"
+              required />
+          </div>
+
+          <div class="input-box">
+            <label for="legalresponsible">Responsável legal</label>
+            <input id="legalresponsible" type="text" name="legalresponsible" placeholder="Digite o nome do responsável"
+              required />
+          </div>
+
+          <div class="input-box">
+            <label for="email">E-mail</label>
+            <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required />
+          </div>
+
+          <div class="input-box">
+            <label for="number">Celular</label>
+            <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required />
+          </div>
+
+          <div class="input-box">
+            <label for="password">Senha</label>
+            <input id="password" type="password" name="password" placeholder="Digite sua senha" required />
+          </div>
+
+          <div class="input-box">
+            <label for="confirmPassword">Confirme sua Senha</label>
+            <input id="confirmPassword" type="password" name="confirmPassword" placeholder="Digite sua senha novamente"
+              required />
+          </div>
+        </div>
+
+        <div class="continue-button">
+          <button type="submit">Continuar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
 </html>
