@@ -6,6 +6,8 @@
   <title>Orçamento</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <link rel="stylesheet" href="./styles/dashboard.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
 </head>
 
 <body>
@@ -120,64 +122,40 @@
       </div>
     </div>
     <div class="tabular--wrapper">
-      <h3 class="main-title">Pedidos</h3>
-      <div class="table-container">
-        <table>
-          <thead>
-            <tr>
-              <th>Data</th>
-              <th>Empresa</th>
-              <th>Descrição</th>
-              <th>Orçamento</th>
-              <th>Categoria</th>
-              <th>Status</th>
-              <th>Editar</th>
-            </tr>
-          <tbody>
-            <tr>
-              <td>
-                04-11-2023
-              </td>
-              <td>Doces&Cia</td>
-              <td>Festa infantil</td>
-              <td>R$500,00</td>
-              <td>Varegista</td>
-              <td>Pendente</td>
-              <td><button>Editar</button></td>
-            </tr>
+      <h3 class="main-title" style="text-align: center;">Gerar Orçamento</h3>
+      <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <button class="btn btn-primary btn-block mb-3" onclick="showAlert('Orçamento calculado e enviado por email')">Orçamento baseado em atividade</button>
+            </div>
+            <div class="col-md-6">
+                <button class="btn btn-secondary btn-block mb-3" onclick="showAlert('Orçamento calculado e enviado por email')">Orçamento contínuo</button>
+            </div>
+            <div class="col-md-6">
+                <button class="btn btn-success btn-block mb-3" onclick="showAlert('Orçamento calculado e enviado por email')">Orçamento base zero</button>
+            </div>
+            <div class="col-md-6">
+                <button class="btn btn-danger btn-block mb-3" onclick="showAlert('Orçamento calculado e enviado por email')">Orçamento matricial</button>
+            </div>
 
-            <td>
-              04-11-2023
-            </td>
-            <td>Churrasquinho</td>
-            <td>Churrasco para formatura</td>
-            <td>R$700,00</td>
-            <td>MEI</td>
-            <td>Em Andamento</td>
-            <td><button>Editar</button></td>
-            </tr>
-
-            <td>
-              04-11-2023
-            </td>
-            <td>1000Festas</td>
-            <td>Formatura</td>
-            <td>R$3000,00</td>
-            <td>EI</td>
-            <td>Pronto</td>
-            <td><button>Editar</button></td>
-            </tr>
-          </tbody>
-          <tfoot>
-            <tr>
-              <td colspan="7">Total de Pedidos: 3</td>
-            </tr>
-          </tfoot>
-          </thead>
-        </table>
-      </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <button class="btn btn-warning" onclick="showAlert('Orçamento calculado e enviado por email')">Orçamento histórico</button>
+            </div>
+        </div>
+    </div>
     </div>
   </div>
+  <!-- JavaScript function to show alerts -->
+  <script>
+    function showAlert(buttonText) {
+        alert('Button pressed: ' + buttonText);
+    }
+</script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
