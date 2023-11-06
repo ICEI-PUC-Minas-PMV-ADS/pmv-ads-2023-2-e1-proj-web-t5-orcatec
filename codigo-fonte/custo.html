@@ -6,6 +6,8 @@
   <title>CUSTO</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <link rel="stylesheet" href="./styles/dashboard.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
 </head>
 
 <body>
@@ -120,61 +122,51 @@
       </div>
     </div>
     <div class="tabular--wrapper">
-      <h3 class="main-title">Pedidos</h3>
+      <h3 class="main-title" style="text-align: center;">Registrar custo</h3>
       <div class="table-container">
-        <table>
-          <thead>
-            <tr>
-              <th>Data</th>
-              <th>Empresa</th>
-              <th>Descrição</th>
-              <th>Orçamento</th>
-              <th>Categoria</th>
-              <th>Status</th>
-              <th>Editar</th>
-            </tr>
-          <tbody>
-            <tr>
-              <td>
-                04-11-2023
-              </td>
-              <td>Doces&Cia</td>
-              <td>Festa infantil</td>
-              <td>R$500,00</td>
-              <td>Varegista</td>
-              <td>Pendente</td>
-              <td><button>Editar</button></td>
-            </tr>
+        <div class="container">
+            <form>
+                <div class="form-group">
+                    <label for="text-input">Produto:</label>
+                    <input type="text" class="form-control" id="text-input">
+                </div>
+    
+                <div class="form-group">
+                    <label for="number-input">Custo</label>
+                    <input type="number" class="form-control" id="number-input" placeholder="Valor">
+                </div>
 
-            <td>
-              04-11-2023
-            </td>
-            <td>Churrasquinho</td>
-            <td>Churrasco para formatura</td>
-            <td>R$700,00</td>
-            <td>MEI</td>
-            <td>Em Andamento</td>
-            <td><button>Editar</button></td>
-            </tr>
+                <div class="form-group">
+                    <label for="date-input">Início </label>
+                    <input type="date" class="form-control" id="date-input">
+                </div>
 
-            <td>
-              04-11-2023
-            </td>
-            <td>1000Festas</td>
-            <td>Formatura</td>
-            <td>R$3000,00</td>
-            <td>EI</td>
-            <td>Pronto</td>
-            <td><button>Editar</button></td>
-            </tr>
-          </tbody>
-          <tfoot>
-            <tr>
-              <td colspan="7">Total de Pedidos: 3</td>
-            </tr>
-          </tfoot>
-          </thead>
-        </table>
+                <div class="form-group">
+                    <label for="date-input">Fim </label>
+                    <input type="date" class="form-control" id="date-input">
+                </div>
+    
+                <div class="form-group">
+                    <label for="textarea">Obs:</label>
+                    <textarea class="form-control" id="textarea" rows="3"></textarea>
+                </div>
+    
+                <div class="form-group">
+                    <label for="dropdown-select">Clientes:</label>
+                    <select class="form-control" id="dropdown-select">
+                        <option value="option1">Cliente 1</option>
+                        <option value="option2">Cliente 2</option>
+                        <option value="option3">Cliente 3</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Cadastrar custo</button>
+            </form>
+        </div>
+    
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
       </div>
     </div>
   </div>
