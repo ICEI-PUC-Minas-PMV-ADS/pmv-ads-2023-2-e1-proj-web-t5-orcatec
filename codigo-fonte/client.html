@@ -1,70 +1,140 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Dashboard Desingn | By code info</title>
-    <link rel="stylesheet" href="./styles/dashboard.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-  </head> 
-  <body>
-    <div class="sidebar">
-      <div class="logo"></div>
-      <ul class="menu">
-        <li class="active">
-          <a href="#">
-            <i class="fa fa-tachometer-alt"></i>
-            <span>Dashboard</span>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <i class="fas fa-user"></i>
-            <span>Clientes</span>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <i class="fas fa-chart-bar"></i>
-            <span>Orçamentos</span>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <i class="fas fa-briefcase"></i>
-            <span>Registro de Custos</span>
-          </a>
-        <li>
-          <a href="#">
-            <i class="fas fa-cog"></i>
-            <span>Configurações</span>
-          </a>
-        </li>
-    </li>
-    <li class="logout">
-      <a href="#">
-        <i class="fas fa-sign-out-alt"></i>
-        <span>Sair</span>
-      </a>
-    </li>
-      </ul>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>CLIENTE</title>
+  <link rel="stylesheet" href="./styles/dashboard.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+  <div class="sidebar">
+    <div class="logo"></div>
+    <ul class="menu">
+      <li class="active">
+        <a href="dashboard.html">
+          <i class="fa fa-tachometer-alt"></i>
+          <span>Dashboard</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fas fa-user"></i>
+          <span>Clientes</span>
+        </a>
+      </li>
+      <li>
+        <a href="orcamento.html">
+          <i class="fas fa-chart-bar"></i>
+          <span>Orçamentos</span>
+        </a>
+      </li>
+      <li>
+        <a href="custo.html">
+          <i class="fas fa-briefcase"></i>
+          <span>Registro de Custos</span>
+        </a>
+      <li>
+        <a href="#">
+          <i class="fas fa-cog"></i>
+          <span>Configurações</span>
+        </a>
+      </li>
+      </li>
+      <li class="logout">
+        <a href="#">
+          <i class="fas fa-sign-out-alt"></i>
+          <span>Sair</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="main--content">
+    <div class="header--wrapper">
+      <div class="header--title">
+        <span>Dashboard</span>
+        <h2>OrçaTec</h2>
+      </div>
+      <div class="user-info">
+        <div class="sear-box">
+          <i class="fa-solid
+                fa-search"></i>
+          <input type="text" placeholder="Pesquisar">
+        </div>
+        <img src="./styles/img/colors-gray.png" alt="">
+      </div>
     </div>
 
-    <div class="main--content">
-        <div class="header--wrapper">
-            <div class="header--title">
-                <span>Dashboard</span>
-                <h2>OrçaTec</h2>
+    <section class="content">
+      <div class="row">
+        <div>
+          <div>
+            <div>
+              <h3></h3>
             </div>
-            <div class="user-info">
-                <div class="sear-box">
-                <i class="fa-solid
-                fa-search"></i>
-                <input type="text" 
-                placeholder="Pesquisar">
-            </div>
-            <img src="./styles/img/colors-gray.png" alt="">
-        </div>
-      </div>
+            <div>
+              <table id="example2">
+                <thead>
+                  <tr>
+                    <th>Cliente</th>
+                    <th>Orçamento</th>
+                    <th>Categoria</th>
+                    <th>Status</th>
+                    <th>Risco</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Cliente 1</td>
+                    <td>Orçamento matricial</td>
+                    <td>Varejo</td>
+                    <td>Ativo</td>
+                    <td>X</td>
+                  </tr>
+                  <tr>
+                    <td>Cliente 2</td>
+                    <td>Orçamento histórico</td>
+                    <td>Varejo</td>
+                    <td>Ativo</td>
+                    <td>X</td>
+                  </tr>
+                  <tr>
+                    <td>Cliente 3</td>
+                    <td>Orçamento contínuo</td>
+                    <td>Varejo</td>
+                    <td>Ativo</td>
+                    <td>X</td>
+                  </tr>
+                  <tr>
+                    <td>Cliente 4</td>
+                    <td>Orçamento histórico</td>
+                    <td>MEI</td>
+                    <td>Supenso</td>
+                    <td>A</td>
+                  </tr>
+                  <tr>
+                    <td>Cliente 5</td>
+                    <td>Orçamento base zero</td>
+                    <td>MEI</td>
+                    <td>Em análise</td>
+                    <td>B</td>
+                  </tr>
+                  <tr>
+                    <td>Cliente 6</td>
+                    <td>Orçamento baseado em atividade</td>
+                    <td>EI</td>
+                    <td>Em análise</td>
+                    <td>A</td>
+                  </tr>
+                  
+              </table>
+            </div><!-- /.box-body -->
+          </div><!-- /.box -->
+        </div><!-- /.col -->
+      </div><!-- /.row -->
+    </section><!-- /.content -->
+  </div>
+
+</body>
