@@ -12,7 +12,6 @@ Solução desenvolvida para apoiar os empreendedores de pequenos negócios no pr
 
 * Amanda Lissa
 * Fábio Francisco
-* Hudson Martins
 * João Vitor
 * Lucas Macedo
 
