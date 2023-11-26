@@ -3,7 +3,7 @@
 ### Cadastro
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t5-orcatec/assets/144942087/3b691ec8-fd0b-46e8-a817-1e7bf8b046a9)
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t5-orcatec/assets/144942087/717491be-9352-4dd7-b6b2-1b2b8e95603a)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t5-orcatec/assets/144942087/90cd28bf-3b12-4ba0-9715-44256d2efc24)
 
 
 
