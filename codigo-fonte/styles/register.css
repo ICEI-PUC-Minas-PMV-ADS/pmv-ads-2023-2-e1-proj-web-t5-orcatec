@@ -5,7 +5,6 @@
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
-
 body {
   width: 100%;
   height: 100vh;
@@ -16,28 +15,15 @@ body {
 }
 
 .container {
-  width: 80%;
-  height: 80vh;
-  display: flex;
+  width: 40%;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+  padding: 20px;
+  border-radius: 8px;
+  background-color:#ffffff;
 }
 
-.form-image {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #dbdbdb;
-
-  padding: 1rem;
-}
-
-.form-image img {
-  width: 31rem;
-}
-
-.form {
-  width: 50%;
+form {
+   width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,29 +38,47 @@ body {
   justify-content: space-between;
 }
 
-.login-button {
-  display: flex;
-  align-items: center;
+label {
+  margin-bottom: 8px;
+}
+input {
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
-.login-button button {
+.input-group {
+  display: 1;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+button {
+  padding: 12px;
+  background-color: #0e4b82;
+  color: #fff;
   border: none;
-  background: #0e4b82;
-  padding: 0.4rem 1rem;
-  border-radius: 5px;
+  border-radius: 4px;
   cursor: pointer;
 }
 
-.login-button button:hover {
-  background: #0e4b82;
+button:hover {
+  background-color: #0e4b82;
+  align-items: center;
 }
 
-.login-button button a {
+.switch {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.switch a {
   text-decoration: none;
-  font-weight: 500;
-  color: #fff;
+  color: #0e4b82;
+  font-weight: bold;
 }
-
 .form-header h1::after {
   content: "";
   display: block;
@@ -85,14 +89,6 @@ body {
   position: absolute;
   border-radius: 10px;
 }
-
-.input-group {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 1rem 0;
-}
-
 .input-box {
   display: flex;
   flex-direction: column;
@@ -149,25 +145,18 @@ body {
   color: #000000c0;
 }
 
-.continue-button button {
-  width: 100%;
-  margin-top: 2.5rem;
-  border: none;
-  background: #0e4b82;
-  padding: 0.62rem;
-  border-radius: 5px;
-  cursor: pointer;
+.form-image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  background: #ffffff;
+
+  padding: 1rem;
 }
 
-.continue-button button:hover {
-  background: rgb(109, 130, 14);
-}
-
-.continue-button button {
-  text-decoration: none;
-  font-size: 0.93rem;
-  font-weight: 500;
-  color: #fff;
+.form-image img {
+  width: 31rem;
 }
 
 @media screen and (max-width: 1330px) {
