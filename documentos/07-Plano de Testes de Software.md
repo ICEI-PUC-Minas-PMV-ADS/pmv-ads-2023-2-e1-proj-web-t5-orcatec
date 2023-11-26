@@ -10,5 +10,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Critérios de êxito | O fluxo do usuário deve ser seguido sem erros ou conflitos; Caso os campos obrigatórios não tenham um valor, devem emitir uma mensagem de erro; A criação de senha deve respeitar o mínimo de 8 caracteres, caso contrário, uma mensagem de erro deve ser apresentada.|
 | Responsável pela elaborar do caso de Teste | Amanda B. Lissa
 
+|Caso de Teste    | CT-1 - Cadastro Caso de Teste |
+|:---|:---|
 | Requisitos Associados | RF-03|
 | Objetivo do Teste |  Foram verificados nos testes  o cadastramento de Receita, Despesas, Lucros e custos  para a geração do Orçamento OrçaTec |
