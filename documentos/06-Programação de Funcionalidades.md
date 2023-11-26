@@ -7,22 +7,16 @@
 
 #### Requisito atendido
 
-| RF-01 |  Cadastro do cliente na plataforma, para o cadastro deve ser inserido nome, CPF, e-mail, telefone e endereço, deve ser gerada uma mensagem para o e-mail do cliente confirmando a criação da conta e uma senha aleatória que obrigatoriamente deve ser trocada no primeiro acesso.  | 
-
+| RF-01 |  Cadastro do cliente na plataforma, para o cadastro deve ser inserido Razão Social, Responsável Legal, CPF/CNPJ, e-mail e telefone, deve ser criada uma senha com no mínimo 8 caracteres| 
 
 #### Artefatos da funcionalidade
 
 [Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade]
 
 
-#### Estrutura de Dados
+#### Instruções de Acesso
 
-[Caso exista estrutura de dados, adicione aqui]
-
-
-#### Instruções de acesso
-
-[Adicione as orientações de acesso à funcionalidade]
+Acesse a página de Login e clique no botão "Registrar" para fazer o cadastro e ter acesso a plataforma.
 
 
 #### Responsáveis
