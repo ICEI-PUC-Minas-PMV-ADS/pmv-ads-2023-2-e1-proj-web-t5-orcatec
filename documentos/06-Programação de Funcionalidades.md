@@ -30,11 +30,11 @@
 Amanda B. Lissa
 Joao V. Fochat
 
-### GERADOR DE ORÇAMENTO
+### GERADOR DE ORÇAMENTO ORÇATEC
 
   O Usuario irá preencher os campos de acordo ao Orçamento a ser gerado pelo OrçaTec, seja Receitas, Despesas e Custos com respectivos valores para ser apurado o Valor$ do Orçamento. Apos Gerado o Orçamento, na página do OrçaTec é possivel gerar um arquivo pdf para o usuário.
 
-
+### Elaborado por: Fábio  F.C.R
 
 > **Links Úteis**:
 > - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
