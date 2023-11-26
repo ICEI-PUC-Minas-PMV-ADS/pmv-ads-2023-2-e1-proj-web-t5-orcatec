@@ -74,7 +74,7 @@ function getTotals() {
     .map((transaction) => Number(transaction.amount));
 
   const totalIncomes = amountIncomes
-    .reduce((acc, cur) => acc + cur, 0)
+    .reduce((acc, cur) => acc - cur, 0)
     .toFixed(2);
 
   const totalExpenses = Math.abs(
