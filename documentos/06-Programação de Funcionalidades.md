@@ -2,7 +2,8 @@
 
 ### Cadastro
 
-[Adicione imagem da funcionalidade/tela]
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t5-orcatec/assets/144942087/3b691ec8-fd0b-46e8-a817-1e7bf8b046a9)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t5-orcatec/assets/144942087/3ca573d1-69ff-42df-b623-2ff7dce8b626)
 
 
 #### Requisito atendido
@@ -11,7 +12,7 @@
 
 #### Artefatos da funcionalidade
 
-[Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade]
+
 
 
 #### Instruções de Acesso
