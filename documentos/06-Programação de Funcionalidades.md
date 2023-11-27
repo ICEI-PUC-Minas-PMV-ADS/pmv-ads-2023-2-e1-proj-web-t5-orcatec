@@ -30,3 +30,38 @@ Joao V. Fochat
 
 ### Elaborado por: 
 Fábio  F.C.R
+
+###
+
+*Tela de Orçamento (RF-004)*
+Responsável: João Vitor Vaz Eler Fochat
+
+O acesso a tela de orçamento poderá ser feito através do menu do dashboard “Orçamentos”. As estruturas de dados foram baseadas em HTML, CSS e JS.
+
+Exemplo da tela de Orçamento:
+
+![Alt text](image.png)
+
+*Requisito atendido*
+RF-003: O site deve permitir ao usuário cadastrar uma conta.
+
+Artefatos da funcionalidade
+●dashboard.html
+
+●dashboard.css
+
+●criar-orcamento.html
+
+●orcamento.js
+
+●common.js
+
+*Estrutura de Dados*
+
+●criar-orcamento.html
+
+*Instruções de acesso*
+
+Para acesso, vá ao menu-bar ao lado esquerdo da tela e clique em "Orçamentos", logo após clique em "Fazer Orçamento" e coloque os dados pedidos, quando feito clica no botao "Gerar Orçamento" e depois em "ok" (vai aparecer uma mensagem na tela). Logo em seguida na pagina pricipal do dashboard vai aparecer o pedido gerado.
+
+![Alt text](image-1.png)

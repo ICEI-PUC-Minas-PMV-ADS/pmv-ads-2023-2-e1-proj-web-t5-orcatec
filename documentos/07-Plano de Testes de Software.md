@@ -16,3 +16,12 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   | Objetivo do Teste |  Foram verificados nos testes  o cadastramento de Receita, Despesas, Lucros e custos  para a geração do Orçamento OrçaTec |
   | Teste concluído com sucesso | Após feitos os referidos lançamentos/cadastramentos conforme previstos foi gerado o valor do Orçamento do produto ou serviço prestado. Sendo possível imprimir arquivo pdf |
   | Teste feito por: | Fábio F. C Ribeiro
+
+Os testes funcionais a serem realizados na aplicação são descritos a seguir.
+
+Caso de Teste	CT-1 - Orçamento Caso de Teste
+Requisitos Associados	RF-004
+Objetivo do Teste	Verificar se os requerimentos dos campos a serem preenchidos estão sendo atendidos.
+Passos	Acessar a pagina de "Orçamentos" pelo menu lateral; logo em seguida clicar em "Fazer Orçamento" e preencher os campos necessarios e clicar em "Gerar Orçamento" e clicar em "ok" na mensagem que irar aparecer no centro da tela para confirmação do orçamento; Esse orçamento ira para a pagina pricipal de pedidos.
+Critérios de êxito	Se nao preencher os campos corretamentes o orçamento nao ira ser gerado e ira aparecer uma mensagem de erro.
+Responsável pela elaborar do caso de Teste	João Vitor Vaz Eler Fochat.
