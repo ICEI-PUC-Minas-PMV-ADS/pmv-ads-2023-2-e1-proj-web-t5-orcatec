@@ -58,6 +58,7 @@ body {
 
 .login-container .forgot-password input[type="checkbox"] {
   margin-right: 5px;
+  text-decoration: none;
 }
 
 .logo {

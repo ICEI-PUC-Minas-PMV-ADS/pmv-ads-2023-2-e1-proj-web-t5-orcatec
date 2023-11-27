@@ -2,8 +2,9 @@
 
 ### Cadastro
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t5-orcatec/assets/144942087/3b691ec8-fd0b-46e8-a817-1e7bf8b046a9)
+![Alt text](image-3.png)
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t5-orcatec/assets/144942087/90cd28bf-3b12-4ba0-9715-44256d2efc24)
+
 
 #### Requisito atendido
 
