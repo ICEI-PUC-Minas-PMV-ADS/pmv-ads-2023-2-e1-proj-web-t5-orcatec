@@ -6,6 +6,8 @@
   <title>Dashboard</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <link rel="stylesheet" href="./styles/dashboard.css" />
+  <script src="./js/models/budget-model.js"></script>
+  <script src="./js/orcamento.js" defer></script>
 </head>
 
 <body>
@@ -30,16 +32,16 @@
           <span>Orçamentos</span>
         </a>
       </li>
-      <li>
+      <!-- <li>
         <a href="custo.html">
           <i class="fas fa-briefcase"></i>
           <span>Registro de Custos</span>
         </a>
-      <li>
-        <a href="#">
+      <li> -->
+        <!-- <a href="#">
           <i class="fas fa-cog"></i>
           <span>Configurações</span>
-        </a>
+        </a> -->
       </li>
       </li>
       <li class="logout">
@@ -69,7 +71,7 @@
     <div class="card--container">
       <h3 class="main--title">Dados de hoje</h3>
       <div class="card--wrapper">
-        <div class="payment--card light-red">
+        <!-- <div class="payment--card light-red">
           <div class="card--header">
             <div class="amount">
               <span class="title">
@@ -79,14 +81,14 @@
             <i class="fa-solid fa-dollar icon"></i>
           </div>
           <span class="card--detail"></span>
-        </div>
+        </div> -->
 
         <div class="payment--card light-purple">
           <div class="card--header">
             <div class="amount">
               <span class="title">
                 NOVOS PEDIDOS</span>
-              <span class="amount--value">100</span>
+              <span class="amount--value" id="novosOrcamentos"></span>
             </div>
             <i class="fa-solid fa-list icon dark-purple"></i>
           </div>
@@ -122,7 +124,20 @@
     <div class="tabular--wrapper">
       <h3 class="main-title">Pedidos</h3>
       <div class="table-container">
-        <table>
+        <table id="tabelaOrcamentos">
+          <thead>
+            <tr>
+              <th>Nome do Produto</th>
+              <th>Valor unitário do Produto</th>
+              <th>Valor total do Produto</th>
+              <th>Valor total</th>
+              <th>Data</th>
+              <!-- <th>Editar</th> -->
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        <!-- <table>
           <thead>
             <tr>
               <th>Data</th>
@@ -174,10 +189,15 @@
             </tr>
           </tfoot>
           </thead>
-        </table>
+        </table> -->
       </div>
     </div>
   </div>
+  <script>
+    window.onload = function () {
+      renderizeAllBudgets();
+      getNewBudgets();
+    }
+  </script>
 </body>
-
 </html>
