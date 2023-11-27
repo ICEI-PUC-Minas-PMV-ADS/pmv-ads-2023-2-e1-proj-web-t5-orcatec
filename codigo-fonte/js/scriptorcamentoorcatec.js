@@ -83,9 +83,9 @@ function getTotals() {
 
   const totalItems = (totalIncomes - totalExpenses).toFixed(2);
 
-  incomes.innerHTML = totalIncomes;
+  incomes.innerHTML = totalIncomes *(-1);
   expenses.innerHTML = totalExpenses;
-  total.innerHTML = totalItems;
+  total.innerHTML = totalItems *(-1);
 }
 
 const getItensBD = () => JSON.parse(localStorage.getItem("db_items")) ?? [];
