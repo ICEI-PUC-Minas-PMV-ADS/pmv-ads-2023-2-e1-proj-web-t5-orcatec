@@ -126,28 +126,8 @@ body {
 .sear-box i:hover {
   transform: scale(1.2);
 }
-.header--wrapper img {
-  width: 50px;
-  height: 50px;
-  cursor: pointer;
-  border-radius: 50%;
-  margin: 1rem;
-}
-.header--wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  background: #fff;
-  border-radius: 10px;
-  padding: 10px 2rem;
-  margin-bottom: 1rem;
-}
-.header--title {
-  color: rgba(14, 75, 130);
-}
 .calculoorcamento {
-  background-color: #eef2f3;
+  background-color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -236,6 +216,8 @@ main {
 
 input, select {
   padding: 5px;
+  background-color: #5f515158;
+  border-radius: 10px;
 }
 
 .divTable {
