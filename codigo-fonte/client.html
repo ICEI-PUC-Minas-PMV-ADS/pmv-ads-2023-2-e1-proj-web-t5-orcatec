@@ -1,41 +1,30 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <title>CLIENTE</title>
-  <link rel="stylesheet" href="./styles/dashboard.css" />
-  <style>
-    /* CSS to style the button */
-    .button {
-      display: inline-block;
-      padding: 10px 20px;
-      margin-top: 25px;
-      background-color: #0074d9;
-
-      color: #fff;
-
-      border-radius: 10px;
-
-      text-decoration: none;
-
-    }
-  </style>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUD</title>
+  <link rel="stylesheet" href="./styles/client.css">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
 </head>
 
 <body>
   <div class="sidebar">
     <div class="logo"></div>
     <ul class="menu">
-      <li class="active">
+      <li>
         <a href="dashboard.html">
           <i class="fa fa-tachometer-alt"></i>
           <span>Dashboard</span>
         </a>
       </li>
       <li>
-        <a href="#">
+        <a href="client.html">
           <i class="fas fa-user"></i>
           <span>Clientes</span>
         </a>
@@ -46,17 +35,8 @@
           <span>Orçamentos</span>
         </a>
       </li>
-      <li>
-        <!-- <a href="custo.html">
-          <i class="fas fa-briefcase"></i>
-          <span>Registro de Custos</span>
-        </a> -->
-      <!-- <li>
-        <a href="#">
-          <i class="fas fa-cog"></i>
-          <span>Configurações</span>
-        </a>
-      </li> -->
+     
+      </li>
       </li>
       <li class="logout">
         <a href="#">
@@ -70,8 +50,8 @@
   <div class="main--content">
     <div class="header--wrapper">
       <div class="header--title">
-        <span>Dashboard</span>
-        <h2>OrçaTec</h2>
+        <span>Orçatec</span>
+        <h2>Dashboard</h2>
       </div>
       <div class="user-info">
         <div class="sear-box">
@@ -81,76 +61,55 @@
         </div>
         <img src="./styles/img/colors-gray.png" alt="">
       </div>
+
+  <div class="container">
+    <div class="header">
+      <span>Cadastro de Clientes</span>
+      <button onclick="openModal()" id="new">Incluir</i></button>
     </div>
 
-    <section class="content">
-      <div class="row">
-        <div>
-          <div>
-            <div>
-              <h3></h3>
-            </div>
-            <div>
-              <table id="example2">
-                <thead>
-                  <tr>
-                    <th>Cliente</th>
-                    <th>Orçamento</th>
-                    <th>Categoria</th>
-                    <th>Status</th>
-                    <th>Risco</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Cliente 1</td>
-                    <td>Orçamento matricial</td>
-                    <td>Varejo</td>
-                    <td>Ativo</td>
-                    <td>X</td>
-                  </tr>
-                  <tr>
-                    <td>Cliente 2</td>
-                    <td>Orçamento histórico</td>
-                    <td>Varejo</td>
-                    <td>Ativo</td>
-                    <td>X</td>
-                  </tr>
-                  <tr>
-                    <td>Cliente 3</td>
-                    <td>Orçamento contínuo</td>
-                    <td>Varejo</td>
-                    <td>Ativo</td>
-                    <td>X</td>
-                  </tr>
-                  <tr>
-                    <td>Cliente 4</td>
-                    <td>Orçamento histórico</td>
-                    <td>MEI</td>
-                    <td>Supenso</td>
-                    <td>A</td>
-                  </tr>
-                  <tr>
-                    <td>Cliente 5</td>
-                    <td>Orçamento base zero</td>
-                    <td>MEI</td>
-                    <td>Em análise</td>
-                    <td>B</td>
-                  </tr>
-                  <tr>
-                    <td>Cliente 6</td>
-                    <td>Orçamento baseado em atividade</td>
-                    <td>EI</td>
-                    <td>Em análise</td>
-                    <td>A</td>
-                  </tr>
-              </table>
-              <a href="#" class="button">Cadastrar cliente</a>
-            </div><!-- /.box-body -->
-          </div><!-- /.box -->
-        </div><!-- /.col -->
-      </div><!-- /.row -->
-    </section><!-- /.content -->
-  </div>
+    <div class="divTable">
+      <table>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Empresa</th>
+            <th>Contato</th>
+            <th>CPF</th>
+            <th>Cidade</th>
+            <th class="acao">Editar</th>
+            <th class="acao">Excluir</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
 
+    <div class="modal-container">
+      <div class="modal">
+        <form>
+          <label for="m-nome">Nome</label>
+          <input id="m-nome" type="text" required />
+  
+          <label for="m-empresa">Empresa</label>
+          <input id="m-empresa" type="text" required />
+
+          <label for="m-contato">Contato</label>
+          <input id="m-contato" type="number" required />
+
+          <label for="m-cpf">CPF</label>
+          <input id="m-cpf" type="number" required />
+  
+          <label for="m-cidade">Cidade</label>
+          <input id="m-cidade" type="text" required />
+          <button id="btnSalvar">Salvar</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+  <script src="./js/client.js"></script>
 </body>
+
+</html>
