@@ -31,7 +31,10 @@ Joao V. Fochat
 
 
 
-![Uploading orcatecORCAMENTO gerador.png…]()
+![orcatecORCAMENTO gerador](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t5-orcatec/assets/144861546/ab4c4e6b-4611-4dd4-a1fc-94dad39dd6ce)
+
+
+![oracatecGERADORorcamento](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t5-orcatec/assets/144861546/ff7d362d-6050-462b-a5e9-2b5350af4b7d)
 
 ### Elaborado por: 
 Fábio  F.C.R
