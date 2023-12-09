@@ -50,7 +50,7 @@ O acesso a tela de clientes poderá ser feito através do menu do dashboard “C
 
 Exemplo da tela de Cliente:
 
-![Alt text](image-2.png)
+![Alt text](image-cadastro.png)
 
 #### Requisito atendido
 
@@ -76,6 +76,6 @@ RF-004: O site deve permitir ao usuário cadastrar clientes.
 
 Para acesso, vá ao menu-bar ao lado esquerdo da tela e clique em "Clientes", logo após clique em "incluir" e coloque os dados pedidos, quando feito clica no botao "Salvar". Tambem tem a opcão de editar os dados como mostra na imagem a seguir.
 
-![Alt text](image-1.png)
+![Alt text](image-editar.png)
 
 
