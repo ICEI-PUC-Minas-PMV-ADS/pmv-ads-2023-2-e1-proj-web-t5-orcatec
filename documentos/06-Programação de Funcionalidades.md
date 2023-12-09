@@ -42,21 +42,19 @@ Fábio  F.C.R
 
 
 
-### TELA DE ORÇAMENTO RF - (004)
+### TELA DE CLIENTES RF - (004)
 
 #### Responsávei: João Vitor Vaz Eler Fochat
 
-O acesso a tela de orçamento poderá ser feito através do menu do dashboard “Orçamentos”. As estruturas de dados foram baseadas em HTML, CSS e JS.
+O acesso a tela de clientes poderá ser feito através do menu do dashboard “CLIENTES”. As estruturas de dados foram baseadas em HTML, CSS e JS.
 
-Exemplo da tela de Orçamento:
+Exemplo da tela de Cliente:
 
 ![Alt text](image.png)
 
-![Alt text](image-2.png)
-
 #### Requisito atendido
 
-RF-004: O site deve permitir ao usuário gerar um orçamento.
+RF-004: O site deve permitir ao usuário cadastrar clientes.
 
 #### Artefatos da funcionalidade
 
@@ -64,18 +62,20 @@ RF-004: O site deve permitir ao usuário gerar um orçamento.
 
 ●dashboard.css
 
-●criar-orcamento.html
+●client.html
 
-●orcamento.js
+●client.js
 
-●common.js
+●client.css
 
 #### ESTRUTURAS DE DADOS
 
-●criar-orcamento.html
+●client.html
 
 #### INTRUÇOES DE ACESSO
 
-Para acesso, vá ao menu-bar ao lado esquerdo da tela e clique em "Orçamentos", logo após clique em "Fazer Orçamento" e coloque os dados pedidos, quando feito clica no botao "Gerar Orçamento" e depois em "ok" (vai aparecer uma mensagem na tela). Logo em seguida na pagina pricipal do dashboard vai aparecer o pedido gerado.
+Para acesso, vá ao menu-bar ao lado esquerdo da tela e clique em "Clientes", logo após clique em "incluir" e coloque os dados pedidos, quando feito clica no botao "Salvar". Tambem tem a opcão de editar os dados como mostra na imagem a seguir.
 
 ![Alt text](image-1.png)
+
+
