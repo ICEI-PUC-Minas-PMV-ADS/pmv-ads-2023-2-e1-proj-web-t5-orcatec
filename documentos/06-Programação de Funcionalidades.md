@@ -92,7 +92,7 @@ Exemplo da tela Dashboard:
 
 #### Requisito atendido
 
-RF-004: O site deve permitir ao usuário cadastrar clientes, editar e excluir.
+RF-005: A quantidade de clientes e orçametos gerados, iram ser exibidos nos cads da tela do dashboard.
 
 #### Artefatos da funcionalidade
 
@@ -100,17 +100,12 @@ RF-004: O site deve permitir ao usuário cadastrar clientes, editar e excluir.
 
 ●dashboard.css
 
-●client.html
-
-●client.js
-
-●client.css
 
 #### ESTRUTURAS DE DADOS
 
-●client.html
+●dashboard.html
 
 #### INTRUÇOES DE ACESSO
 
-Para acesso, vá ao menu-bar ao lado esquerdo da tela e clique em "Clientes", logo após clique em "incluir" e coloque os dados pedidos, quando feito clica no botao "Salvar". Tambem tem a opcão de editar os dados como mostra na imagem a seguir.
+Todos os clientes incluidos na tabela e orçamentos gerados, iram ser exibidos.
 
