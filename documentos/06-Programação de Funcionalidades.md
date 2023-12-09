@@ -50,7 +50,7 @@ O acesso a tela de clientes poderá ser feito através do menu do dashboard “C
 
 Exemplo da tela de Cliente:
 
-![Alt text](image.png)
+![Alt text](image-2.png)
 
 #### Requisito atendido
 
