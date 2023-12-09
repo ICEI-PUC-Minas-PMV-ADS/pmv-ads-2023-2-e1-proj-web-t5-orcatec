@@ -54,7 +54,7 @@ Exemplo da tela de Cliente:
 
 #### Requisito atendido
 
-RF-004: O site deve permitir ao usuário cadastrar clientes.
+RF-004: O site deve permitir ao usuário cadastrar clientes, editar e excluir.
 
 #### Artefatos da funcionalidade
 
