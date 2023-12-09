@@ -10,13 +10,13 @@
 
 <body>
   <div class="container">
-    <div class="form-image">
-      <img src="logo.png" alt="" />
+    <div class="logo">
+      <img src="./assets/images/logo.png" alt="Logotipo da Empresa" />
     </div>
 
     <div class="input-group">
     <form id="registerForm">
-      <h2>Registrar</h2>
+      <h2>Cadastre-se já!</h2>
       <div class="input-box">   
         <label for="regUsername">Usuário:</label>
         <input type="text" id="regUsername" name="regUsername" required>
@@ -34,10 +34,10 @@
         <input type="text" id="regPhoneNumber" name="regPhoneNumber" required>
 
         <label for="regPassword">Senha:</label>
-        <input type="password" id="regPassword" name="regPassword" required>
+        <input type="password" id="regPassword" name="regPassword" maxlength="8" minlength="8" required>
 
         <label for="regConfirmPassword">Confirme sua Senha:</label>
-        <input type="password" id="regConfirmPassword" name="regConfirmPassword" required>
+        <input type="password" id="regConfirmPassword" name="regConfirmPassword" maxlength="8" minlength="8" required>
       </div>
 
       <button type="button" onclick="register()">Registrar</button>
