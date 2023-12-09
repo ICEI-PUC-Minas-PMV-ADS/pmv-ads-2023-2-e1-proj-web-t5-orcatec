@@ -37,7 +37,7 @@
       </li>
       </li>
       <li class="logout">
-        <a href="#">
+        <a href="/index.html">
           <i class="fas fa-sign-out-alt"></i>
           <span>Sair</span>
         </a>
@@ -60,27 +60,16 @@
         <img src="./styles/img/colors-gray.png" alt="">
       </div>
     </div>
+   
     <div class="card--container">
       <h3 class="main--title">Dados de hoje</h3>
       <div class="card--wrapper">
-        <div class="payment--card light-purple">
-          <div class="card--header">
-            <div class="amount">
-              <span class="title">
-                NOVOS PEDIDOS</span>
-              <span class="amount--value" id="novosOrcamentos"></span>
-            </div>
-            <i class="fa-solid fa-list icon dark-purple"></i>
-          </div>
-          <span class="card--detail"></span>
-        </div>
-
         <div class="payment--card light-green">
           <div class="card--header">
             <div class="amount">
               <span class="title">
                 CLIENTES</span>
-              <span class="amount--value">50</span>
+              <span class="amount--value" id="clients-quantity"></span>
             </div>
             <i class="fa-solid fa-users icon dark-green"></i>
           </div>
@@ -91,8 +80,8 @@
           <div class="card--header">
             <div class="amount">
               <span class="title">
-                PEDIDOS PRONTOS</span>
-              <span class="amount--value">50</span>
+                ORÇAMENTOS</span>
+              <span class="amount--value" id="budgets-quantity">50</span>
             </div>
             <i class="fa-solid fa-check icon dark-blue"></i>
           </div>
@@ -101,29 +90,13 @@
 
       </div>
     </div>
-    <div class="tabular--wrapper">
-      <h3 class="main-title">Pedidos</h3>
-      <div class="table-container">
-        <table id="tabelaOrcamentos">
-          <thead>
-            <tr>
-              <th>Nome do Produto</th>
-              <th>Valor unitário do Produto</th>
-              <th>Valor total do Produto</th>
-              <th>Valor total</th>
-              <th>Data</th>
-              <!-- <th>Editar</th> -->
-            </tr>
-          </thead>
-          <tbody></tbody>
-        </table>
-      </div>
-    </div>
   </div>
   <script>
     window.onload = function () {
-      renderizeAllBudgets();
-      getNewBudgets();
+      const clientsQuantity = JSON.parse(localStorage.getItem("dbfunc")) || [];
+      const budgetsQuantity = JSON.parse(localStorage.getItem("db_items")) || [];
+      document.getElementById('clients-quantity').innerHTML = clientsQuantity.length;
+      document.getElementById('budgets-quantity').innerHTML = budgetsQuantity.length;
     }
   </script>
 </body>
