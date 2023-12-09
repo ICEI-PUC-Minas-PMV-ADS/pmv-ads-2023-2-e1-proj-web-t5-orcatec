@@ -19,10 +19,18 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 
 Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 
-|Caso de Teste    | CT-1 - Cliente Caso de Teste |
+|Caso de Teste    | CT-3 - Cliente Caso de Teste |
 |:---|:---|
 | Requisitos Associados | RF-004|
 | Objetivo do Teste |   Verificar se os requerimentos dos campos a serem preenchidos estão sendo atendidos. |
 | Passos |   Acessar a pagina de "Clientes" pelo menu lateral; logo em seguida clicar em "Incluir" e preencher os campos necessarios e clicar em "Salvar"; Quando for salvo o cliente, na tela principal "Dashboard" vai aparecer no card de "clientes" o numedo de clientes cadastrados.|
 | Critérios de êxito |  Se nao preencher os campos corretamentes o cliente nao ira ser cadastrado e ira aparecer uma mensagem de erro.|
+| Responsável pela elaborar do caso de Teste | João Vitor V. E Fochat
+
+|Caso de Teste    | CT-4 - Cards Caso de Teste |
+|:---|:---|
+| Requisitos Associados | RF-005|
+| Objetivo do Teste |   Verificar se os clientes e orçamentos incluidos e gerados estão sendo exibidos nos cads. |
+| Passos |   Acessar a pagina de "Clientes" pelo menu lateral; logo em seguida clicar em "Incluir" e preencher os campos necessarios e clicar em "Salvar"; Quando for salvo o cliente, na tela principal "Dashboard" vai aparecer no card de "clientes" o numero de clientes cadastrados. Após feitos os referidos lançamentos/cadastramentos conforme previstos foi gerado o valor do Orçamento do produto ou serviço prestado. Quando for feito o orçamento, na tela principal "Dashboard" vai aparecer no card de "Orçamentos" o numedo de Orçamentos lançados|
+| Critérios de êxito | Se nenhum cliente ou Orçamento for incluido ou gerado, nao irar exibir nada.|
 | Responsável pela elaborar do caso de Teste | João Vitor V. E Fochat

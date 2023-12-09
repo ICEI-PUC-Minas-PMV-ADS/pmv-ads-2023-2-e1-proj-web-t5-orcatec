@@ -79,3 +79,38 @@ Para acesso, vá ao menu-bar ao lado esquerdo da tela e clique em "Clientes", lo
 ![Alt text](image-editar.png)
 
 
+### TELA DO DASHBOARD RF - (005)
+
+#### Responsávei: João Vitor Vaz Eler Fochat
+
+Tela de inicio com os cards de "Clientes" e "Orçamentos". As estruturas de dados foram baseadas em HTML, CSS e JS.
+
+Exemplo da tela Dashboard:
+
+![Alt text](image-dashboard.png)
+
+
+#### Requisito atendido
+
+RF-004: O site deve permitir ao usuário cadastrar clientes, editar e excluir.
+
+#### Artefatos da funcionalidade
+
+●dashboard.html
+
+●dashboard.css
+
+●client.html
+
+●client.js
+
+●client.css
+
+#### ESTRUTURAS DE DADOS
+
+●client.html
+
+#### INTRUÇOES DE ACESSO
+
+Para acesso, vá ao menu-bar ao lado esquerdo da tela e clique em "Clientes", logo após clique em "incluir" e coloque os dados pedidos, quando feito clica no botao "Salvar". Tambem tem a opcão de editar os dados como mostra na imagem a seguir.
+
