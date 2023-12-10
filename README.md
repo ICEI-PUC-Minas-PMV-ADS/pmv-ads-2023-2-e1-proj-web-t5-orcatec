@@ -35,7 +35,7 @@ Solução desenvolvida para apoiar os empreendedores de pequenos negócios no pr
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+* (https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t5-orcatec/codigo-fonte/index.html). 
 
 # Código-Fonte
 
