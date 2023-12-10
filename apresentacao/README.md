@@ -16,8 +16,8 @@ Por:
 
 ## Vídeo de apresentação
 
-https://www.loom.com/share/e196efb710224cf68b8adfb10b248bf4?sid=7e14f637-356b-45c4-9215-7c88da5cd01e
+https://www.loom.com/share/3135e57b3d7a4459b07f6ce63f6eed05?sid=fb433c52-9f11-4da0-8b22-c7065bb425ea
 
 ## Hospedagem
 
-http://127.0.0.1:5500/login.html
+(https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t5-orcatec/codigo-fonte/index.html)
