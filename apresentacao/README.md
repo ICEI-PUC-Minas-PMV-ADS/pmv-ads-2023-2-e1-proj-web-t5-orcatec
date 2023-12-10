@@ -9,6 +9,10 @@
 
 [ORÇATEC apresentação 10122023.pdf](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t5-orcatec/files/13627899/ORCATEC.apresentacao.10122023.pdf)
 
+Por:
+*Fábio Francisco
+*Amanda Lissa
+*João Vitor
 
 ## Vídeo de apresentação
 
