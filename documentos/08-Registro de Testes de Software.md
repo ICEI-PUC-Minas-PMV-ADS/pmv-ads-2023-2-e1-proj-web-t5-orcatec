@@ -12,10 +12,5 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
   | Teste feito por: | Fábio F. C Ribeiro
 
 
-|Caso de Teste    | CT-X - Título Caso de Teste |
-Calculo Orçamento:Inseridos valores Receitas, Despesas e Custos
-| Resultados obtidos | Descrever resultados do teste  |
+![orcamento ORCATEC](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t5-orcatec/assets/144861546/064b1312-46bc-4726-b836-f1cc252212f6)
 
-| Responsável pela execução do caso de Teste | Nome do integrante da equipe |
-
-[Inserir aqui as evidências de teste que podem ser apresentadas por print de telas ou por .gif de execução de teste]
